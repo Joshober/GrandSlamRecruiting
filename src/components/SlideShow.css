@@ -1,0 +1,20 @@
+/* src/components/SlideShow.css */
+
+.slideshow-container {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+    position: relative;
+    border: 2px solid black; /* Optional: just for visibility */
+  }
+  
+  .slideshow-track {
+    display: flex;
+    transition: transform 0.1s linear; /* Smooth transition for sliding */
+  }
+  
+  .slideshow-track img {
+    width: 200%;  /* Image width should be very long */
+    object-fit: cover;  /* Ensures the image covers the container */
+  }
+  
