@@ -1,0 +1,36 @@
+/* src/components/Pitch.css */
+
+.pitch-container {
+    position: relative;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .pitch-title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .slide {
+    position: relative;
+  }
+  
+  .pitch-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+  

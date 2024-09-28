@@ -4,6 +4,7 @@ import React from 'react';
 // import Home from '../components/Home';
 import FacebookPageFeed from '../components/FacebookPageFeed';
 import Introduction from '../components/introduction';
+import Pitch from '../components/Pitch';
 const Home = () => {
   return (
 
@@ -11,6 +12,7 @@ const Home = () => {
         {/* <Home></Home> */}
         <FacebookPageFeed/>
         <Introduction/>
+        <Pitch/>
       {/* You can add more components or sections */}
       {/* <Footer /> */}
     </div>
