@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Main Container Styling */
+.introduction-container {
+  max-width: 1200px; /* Increased max width to fit more content */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Center the main content */
+}
+
+/* Main Title Styling */
+.intro-title {
+  font-size: 56px; /* Increased font size */
+  font-weight: 900;
+  color: #c00;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 20px 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styles */
+.intro-section {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.section-description {
+  font-size: 18px; /* Slightly larger font size */
+  line-height: 1.8; /* Increased line height for readability */
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Section Container Styling */
+.section-container {
+  display: flex;
+  gap: 40px; /* Increased gap between sections */
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px 0;
+}
+
+/* Section Box Styling */
+.section {
+  flex: 1; /* Allow sections to grow equally */
+  min-width: 280px;
+  max-width: 320px; /* Limit the maximum width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+
+/* Content Styles */
+.section-content p {
+  font-size: 20px;
+  font-weight: 800;
+  color: #000;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Button Container */
+.section-button {
+  margin-top: 10px;
+}
+
+/* Button Styling */
+.start-button {
+  display: inline-block;
+  padding: 12px 24px; /* Increased padding for larger button */
+  color: #fff;
+  background-color: #c00;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.start-button:hover {
+  background-color: #a00;
+  transform: translateY(-2px);
+}
+
+/* Social Media Section */
+.social-media {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-media h3 {
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+  }
+
+  .intro-title {
+    font-size: 36px;
+  }
+
+  .section {
+    width: 100%;
+    max-width: 320px;
+  }
+}
